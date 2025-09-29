@@ -1,4 +1,13 @@
-# Mosaic: Data-Free Knowledge Distillation via Mixture-of-Experts for Heterogeneous Distributed Environments
+<h1 align="center">Mosaic: Data-Free Knowledge Distillation via Mixture-of-Experts for Heterogeneous Distributed Environments</h1>
+
+<p align="center">
+    <a href="https://arxiv.org/abs/2505.19699">
+        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2503.12972-B31B1B.svg">
+    </a>
+    <a href="https://github.com/Wings-Of-Disaster/Mosaic">
+        <img alt="Build" src="https://img.shields.io/badge/Github-Code-blue">
+    </a>
+</p>
 
 ## Overview
 This repository contains the code for **Mosaic**, a novel DFKD framework utilizing Mixture-of-Experts with Advanced Integrated Collaboration for Heterogeneous Distributed Environments.
@@ -113,3 +122,14 @@ For fair comparison, we used the same data partitioning strategy and model struc
 - **Knowledge Distillation Methods**: For methods like DENSE, FedFTG, and DFRD, in addition to setting I=10/20 for fair comparison, we strictly followed the original code’s experimental setup. This was necessary to ensure the learning curves would converge properly.
 
 This consistent setup ensures that performance differences reflect the algorithmic strengths and limitations of each method rather than variations in data handling or model configuration.
+
+## Citation
+If you find this repository useful, please consider giving a star ⭐ and citation.
+```
+@article{Liu_2025_Mosaic,
+  title={Mosaic: Data-Free Knowledge Distillation via Mixture-of-Experts for Heterogeneous Distributed Environments},
+  author={Liu, Junming and Gao, Yanting and Meng, Siyuan and Sun, Yifei and Wu, Aoqi and Jin, Yufei and Chen, Yirong and Wang, Ding and Zeng, Guosun},
+  journal={arXiv preprint arXiv:2505.19699},
+  year={2025}
+}
+```
