@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2505.19699">
-        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2503.12972-B31B1B.svg">
+        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2505.19699-B31B1B.svg">
     </a>
     <a href="https://github.com/Wings-Of-Disaster/Mosaic">
         <img alt="Build" src="https://img.shields.io/badge/Github-Code-blue">
