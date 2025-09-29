@@ -1,7 +1,7 @@
 # Mosaic: Data-Free Knowledge Distillation via Mixture-of-Experts for Heterogeneous Distributed Environments
 
 ## Overview
-This repository contains the code for **Mosaic**, a novel DFKD framework utilizing Mixture-of-Experts with Advanced Integrated Collaboration for Heterogeneous Distributed Environments. Due to time constraints, only a portion of the code has been organized and released. To ensure fairness during the review process, we will not update the anonymous link further. We sincerely apologize for any inconvenience this may cause and will release more complete code in future supplementary materials.
+This repository contains the code for **Mosaic**, a novel DFKD framework utilizing Mixture-of-Experts with Advanced Integrated Collaboration for Heterogeneous Distributed Environments.
 
 ## Requirements
 
