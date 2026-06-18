@@ -126,10 +126,16 @@ This consistent setup ensures that performance differences reflect the algorithm
 ## Citation
 If you find this repository useful, please consider giving a star ⭐ and citation.
 ```
-@article{Liu_2025_Mosaic,
-  title={Mosaic: Data-Free Knowledge Distillation via Mixture-of-Experts for Heterogeneous Distributed Environments},
-  author={Liu, Junming and Gao, Yanting and Meng, Siyuan and Sun, Yifei and Wu, Aoqi and Jin, Yufei and Chen, Yirong and Wang, Ding and Zeng, Guosun},
-  journal={arXiv preprint arXiv:2505.19699},
-  year={2025}
+@article{Liu_2026_Mosaic,
+title = {Mosaic: Data-free knowledge distillation via mixture-of-experts for heterogeneous distributed environments},
+journal = {Knowledge-Based Systems},
+pages = {116441},
+year = {2026},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2026.116441},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705126011676},
+author = {Junming Liu and Yanting Gao and Yuqi Li and Siyuan Meng and Yifei Sun and Aoqi Wu and Yirong Chen and Ding Wang and Shiping Wen},
+keywords = {Federated learning, Data-free knowledge distillation, Mixture of experts, Generative models},
+abstract = {Federated Learning (FL) is a decentralized machine learning paradigm that enables clients to collaboratively train models while preserving data privacy. However, the coexistence of model and data heterogeneity gives rise to inconsistent representations and divergent optimization dynamics across clients, ultimately hindering robust global performance. To transcend these challenges, we propose Mosaic, a novel data-free knowledge distillation framework tailored for heterogeneous distributed environments. Mosaic first trains local generative models to approximate each client’s personalized distribution, enabling synthetic data generation that safeguards privacy through strict separation from real data. Subsequently, Mosaic forms a Mixture-of-Experts (MoE) from client models based on their specialized knowledge, and distills it into a global model using the generated data. To further enhance the MoE architecture, Mosaic integrates expert predictions via a lightweight meta model trained on a few representative prototypes. Extensive experiments on standard image and multimodal benchmarks demonstrate that Mosaic consistently outperforms state-of-the-art approaches under both model and data heterogeneity. The source code has been published at Github.}
 }
 ```
