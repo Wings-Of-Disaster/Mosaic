@@ -129,6 +129,7 @@ If you find this repository useful, please consider giving a star ⭐ and citati
 @article{Liu_2026_Mosaic,
 title = {Mosaic: Data-free knowledge distillation via mixture-of-experts for heterogeneous distributed environments},
 journal = {Knowledge-Based Systems},
+volume = {349},
 pages = {116441},
 year = {2026},
 issn = {0950-7051},
